@@ -1,0 +1,20 @@
+# dataset klasörünü ignore et
+dataset/
+
+# dataset içindeki data.json dosyasını ignore et
+data.json
+
+# Sanal ortam dosyalarını ignore et
+.venv/
+venv/
+
+# Python cache dosyalarını ignore et
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE ve çalışma dosyalarını ignore et
+.vscode/
+.idea/
+*.iml
