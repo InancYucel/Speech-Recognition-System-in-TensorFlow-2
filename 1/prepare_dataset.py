@@ -46,7 +46,9 @@ def prepare_dataset(dataset_path, json_path, n_mfcc=13, hop_length=512, n_fft=20
         if dirpath is not dataset_path:
 
             # update mappings
-            category = dirpath.split("/")  # dataset/down -> [dataset, down]
+            # category = dirpath.split("/")  # dataset/down -> [dataset, down]
+            category = os.path.basename(dirpath)  # Doğru yöntem
+
             data["mappings"].append(category)
             print(f"Processing {category}")
 
