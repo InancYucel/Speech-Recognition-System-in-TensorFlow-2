@@ -1,8 +1,11 @@
 # dataset klasörünü ignore et
 dataset/
+test/
 
 # dataset içindeki data.json dosyasını ignore et
 data.json
+
+33942
 
 # Sanal ortam dosyalarını ignore et
 .venv/
