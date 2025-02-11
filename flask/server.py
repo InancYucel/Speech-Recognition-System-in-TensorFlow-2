@@ -12,6 +12,7 @@ import random
 import os
 from flask import Flask, request, jsonify
 from keyword_spotting_service import Keyword_Spotting_Service
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -63,4 +64,6 @@ def predict():
         return jsonify({"error": str(e)}), 500  # Return error response
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    #app.run(debug=False)
+    print("Starting server on http://127.0.0.1:5050")
+    serve(app, host="127.0.0.1", port=5050, threads=4)

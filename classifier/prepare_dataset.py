@@ -2,7 +2,7 @@ from librosa import load, feature
 import os
 import json
 
-DATASET_PATH = "dataset"
+DATASET_PATH = "../dataset"
 JSON_PATH = "data.json"
 
 # 1 sec worth of sound

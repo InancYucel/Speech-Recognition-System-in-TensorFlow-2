@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 DATA_PATH = "data.json"
-SAVED_MODEL_PATH = "model.keras"
+SAVED_MODEL_PATH = "../flask/model.keras"
 LEARNING_RATE = 0.0001
 
 NUM_KEYWORDS = 30  # datasetimizde 30 farklı kelime bulunuyor bu yüzden 30
