@@ -1,4 +1,4 @@
-# Speech-Recognition-System-in-TensorFlow-2
+# Speech-Recognition-System-in-TensorFlow2
 
 Step 1
   Download the dataset to this link "https://research.google/blog/launching-the-speech-commands-dataset/"
